@@ -5,8 +5,8 @@
     "apk": "https://github.com/frances09f-lgtm/child-safety-updates/releases/download/parent-v1.4.6/ChildSafetyParent.apk"
   },
   "client": {
-    "version": "0.0.0",
-    "notes": "",
-    "apk": ""
+    "version": "1.0.15",
+    "notes": "In-app self-update rollout.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-updates/releases/download/client-v1.0.15/ChildSafetyClient.apk"
   }
 }
