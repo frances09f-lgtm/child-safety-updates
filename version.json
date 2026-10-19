@@ -2,7 +2,7 @@
   "parent": {
     "version": "1.4.6",
     "notes": "In-app self-update rollout.",
-    "apk_url": "https://github.com/frances09f-lgtm/child-safety-updates/releases/download/parent-v1.4.6/ChildSafetyParent.apk"
+    "apk": "https://github.com/frances09f-lgtm/child-safety-updates/releases/download/parent-v1.4.6/ChildSafetyParent.apk"
   },
   "client": {
     "version": "0.0.0",
