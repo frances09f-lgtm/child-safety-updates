@@ -5,8 +5,8 @@
     "apk": "https://github.com/frances09f-lgtm/child-safety-updates/releases/download/parent-v1.4.8/ChildSafetyParent.apk"
   },
   "client": {
-    "version": "1.0.18",
-    "notes": "Silent minimal tracking notice - keep notifications ON so the phone does not kill tracking.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-updates/releases/download/client-v1.0.18/ChildSafetyClient.apk"
+    "version": "1.0.19",
+    "notes": "Zero-notification test build: alarm heartbeat keeps reports flowing with notifications off.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-updates/releases/download/client-v1.0.19/ChildSafetyClient.apk"
   }
 }
