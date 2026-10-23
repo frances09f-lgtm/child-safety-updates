@@ -5,8 +5,8 @@
     "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.12/ChildSafetyParent.apk"
   },
   "client": {
-    "version": "1.0.21",
-    "notes": "Master switch starts/stops tracking; separate Start/Stop buttons removed.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-client/releases/download/v21/ChildSafety-1.0.21.apk"
+    "version": "1.0.22",
+    "notes": "New child app look: header with the blue shield logo, floating pill dock with icon and label, new launcher icon.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-client/releases/download/v22/ChildSafety-1.0.22.apk"
   }
 }
