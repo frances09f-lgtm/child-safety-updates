@@ -1,8 +1,8 @@
 {
   "parent": {
-    "version": "1.4.13",
-    "notes": "Alerts now arrive when the app is closed. Safe-zone entry and exit alerts name the child and the zone (for example Aarav entered Home) and show once per crossing. SOS, low battery, speed and other alerts are also checked in the background. A small always-on notice keeps the checks running about every 30 seconds, with a 15-minute backup job. Settings warns if notifications or the battery exemption are off.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.13/ChildSafetyParent.apk"
+    "version": "1.4.14",
+    "notes": "The zone box on each child card now shows Inside or Outside with the zone name and the time of the last crossing. It switches to a plain Inside or Outside state with no time 10 minutes after the crossing, so an old alert no longer stays on screen. Background alerts from v1.4.13 are unchanged. Login, API calls and the child list are unchanged. Signed ARM64 APK after successful static analysis and tests. No phone testing claimed.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.14/ChildSafetyParent.apk"
   },
   "client": {
     "version": "1.0.23",
