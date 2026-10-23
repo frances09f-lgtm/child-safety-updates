@@ -1,8 +1,8 @@
 {
   "parent": {
-    "version": "1.4.12",
-    "notes": "Map and History: the Recent fixes card is now Recent history and lists only entries from today (India time), newest first, with No history today when empty.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.12/ChildSafetyParent.apk"
+    "version": "1.4.13",
+    "notes": "Alerts now arrive when the app is closed. Safe-zone entry and exit alerts name the child and the zone (for example Aarav entered Home) and show once per crossing. SOS, low battery, speed and other alerts are also checked in the background. A small always-on notice keeps the checks running about every 30 seconds, with a 15-minute backup job. Settings warns if notifications or the battery exemption are off.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.13/ChildSafetyParent.apk"
   },
   "client": {
     "version": "1.0.22",
