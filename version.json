@@ -5,8 +5,8 @@
     "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.14/ChildSafetyParent.apk"
   },
   "client": {
-    "version": "1.0.23",
-    "notes": "Report interval can now be changed from the child app (7 choices, one-time parent sign-in). Tracking restarts when the app opens, and the Health screen warns when notifications or battery optimization are off, with buttons to fix them.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-client/releases/download/v23/ChildSafety-1.0.23.apk"
+    "version": "1.0.24",
+    "notes": "Tracking recovery for phones that stop background apps when notifications are off (seen on a Moto). The heartbeat alarm now restarts the tracking service and reports with a fresh location when the service is frozen or killed. Health warns when notifications or battery optimization are off, with buttons for notifications, battery exemption and phone background settings. Not tested on a phone.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-client/releases/download/v24/ChildSafety-1.0.24.apk"
   }
 }
