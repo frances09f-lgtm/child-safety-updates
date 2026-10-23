@@ -5,8 +5,8 @@
     "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.15/ChildSafetyParent.apk"
   },
   "client": {
-    "version": "1.0.24",
-    "notes": "Tracking recovery for phones that stop background apps when notifications are off (seen on a Moto). The heartbeat alarm now restarts the tracking service and reports with a fresh location when the service is frozen or killed. Health warns when notifications or battery optimization are off, with buttons for notifications, battery exemption and phone background settings. Not tested on a phone.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-client/releases/download/v24/ChildSafety-1.0.24.apk"
+    "version": "1.0.25",
+    "notes": "Adds 32-bit ARM support. Previous APKs lacked the 32-bit Flutter engine and app library; this may explain launch failure on 32-bit Android. All features are unchanged from v24 (source diff: build and version files only). Retest pending on a 32-bit phone. Signed ARM + ARM64 + x86-64 APK after successful static analysis and tests. Not tested on a physical phone.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-client/releases/download/v25/ChildSafety-1.0.25.apk"
   }
 }
