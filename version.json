@@ -1,8 +1,8 @@
 {
   "parent": {
-    "version": "1.4.11",
-    "notes": "New floating bottom bar (option A): a floating pill dock with an icon and label on each tab and a green pill on the selected tab.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.11/ChildSafetyParent.apk"
+    "version": "1.4.12",
+    "notes": "Map and History: the Recent fixes card is now Recent history and lists only entries from today (India time), newest first, with No history today when empty.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.12/ChildSafetyParent.apk"
   },
   "client": {
     "version": "1.0.21",
