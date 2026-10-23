@@ -5,8 +5,8 @@
     "apk": "https://github.com/frances09f-lgtm/child-safety-updates/releases/download/parent-v1.4.8/ChildSafetyParent.apk"
   },
   "client": {
-    "version": "1.0.19",
-    "notes": "Zero-notification test build: alarm heartbeat keeps reports flowing with notifications off.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-updates/releases/download/client-v1.0.19/ChildSafetyClient.apk"
+    "version": "1.0.21",
+    "notes": "Master switch starts/stops tracking; separate Start/Stop buttons removed.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-client/releases/download/v21/ChildSafety-1.0.21.apk"
   }
 }
