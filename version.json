@@ -1,8 +1,8 @@
 {
   "parent": {
-    "version": "1.4.15",
-    "notes": "Adds 32-bit ARM support. Previous APKs lacked the 32-bit Flutter engine and app library; this may explain launch failure on 32-bit Android. All features and screens are unchanged from v1.4.14 (source diff: build and version files only). Redmi 7A retest pending. Signed ARM + ARM64 APK after successful static analysis and tests. No phone testing claimed.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.15/ChildSafetyParent.apk"
+    "version": "1.4.16",
+    "notes": "Fixes the empty HTTPS server address on the login screen. The app now starts with the project server address pre-filled (the same address the child app documents), also after an update or a fresh install. The field stays editable and a saved address still wins. Login, billing and all other features are unchanged. Signed ARM + ARM64 APK after successful static analysis and tests. No phone testing claimed.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.16/ChildSafetyParent.apk"
   },
   "client": {
     "version": "1.0.25",
