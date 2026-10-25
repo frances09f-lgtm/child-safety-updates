@@ -8,5 +8,10 @@
     "version": "1.0.25",
     "notes": "Adds 32-bit ARM support. Previous APKs lacked the 32-bit Flutter engine and app library; this may explain launch failure on 32-bit Android. All features are unchanged from v24 (source diff: build and version files only). Retest pending on a 32-bit phone. Signed ARM + ARM64 + x86-64 APK after successful static analysis and tests. Not tested on a physical phone.",
     "apk": "https://github.com/frances09f-lgtm/child-safety-client/releases/download/v25/ChildSafety-1.0.25.apk"
+  },
+  "tiffe_staff": {
+    "version": "1.0.7",
+    "notes": "Adds an in-app Update button for every staff role that downloads and installs the APK inside the app. Order status now changes only when staff tap a status; the Auto-Accept switch is removed. Keeps the Upcoming list and newest-first All Orders from v6. Not tested on a phone.",
+    "apk": "https://github.com/frances09f-lgtm/tiffe/releases/download/staff-v7/Tiffe-Staff.apk"
   }
 }
