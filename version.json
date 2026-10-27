@@ -20,13 +20,13 @@
     "size": 37593892
   },
   "tiffe": {
-    "version": "1.0.57",
-    "notes": "Order updates at every step, also with the app closed: while you have an open order, Tiffe shows a quiet Tracking your order notification and gets each status change live (order placed, accepted, preparing, packed, out for delivery, delivered, cancelled), so alerts arrive right away instead of every 15 minutes. It stops by itself when the order is finished. Tiffe asks once to run in the background, because many phones close background apps. The 15 minute check stays as a backup. Not phone-tested.",
-    "apk": "https://raw.githubusercontent.com/frances09f-lgtm/tiffe/apk-mirror/customer/1.0.57/Tiffe.apk",
+    "version": "1.0.58",
+    "notes": "In-app updates now download reliably. The update downloads from a mirror that works on networks that block GitHub downloads, with GitHub as a backup. If a download stops moving for 15 seconds the app switches to the next address, and if every address fails it shows the reason and a Retry button instead of sitting at 0.0 MB. Order alerts at every step with the app closed, from 1.0.57, are unchanged. Not phone-tested.",
+    "apk": "https://raw.githubusercontent.com/frances09f-lgtm/tiffe/apk-mirror/customer/1.0.58/Tiffe.apk",
     "mirrors": [
-      "https://frances09f-lgtm.github.io/tiffe/customer/1.0.57/Tiffe.apk",
-      "https://github.com/frances09f-lgtm/tiffe/releases/download/v57/Tiffe.apk"
+      "https://frances09f-lgtm.github.io/tiffe/customer/1.0.58/Tiffe.apk",
+      "https://github.com/frances09f-lgtm/tiffe/releases/download/v58/Tiffe.apk"
     ],
-    "size": 39742941
+    "size": 39775709
   }
 }
