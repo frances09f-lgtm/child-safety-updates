@@ -15,8 +15,8 @@
     "apk": "https://github.com/frances09f-lgtm/tiffe/releases/download/staff-v10/Tiffe-Staff.apk"
   },
   "tiffe": {
-    "version": "1.0.56",
-    "notes": "Order updates: the notification prompt shows again on phones where an old setting had hidden it; if you say no, Tiffe respects that and Profile > Notifications opens Android settings to turn them on. While the app is closed Tiffe checks your orders about every 15 minutes, plus once about 5 minutes after you leave the app (not instant push). New orders read Order placed until the kitchen accepts them, then Confirmed (once the kitchen database update is applied; existing orders are unchanged). Bhajis the kitchen removes no longer appear on the menu. Not phone-tested.",
-    "apk": "https://github.com/frances09f-lgtm/tiffe/releases/download/v56/Tiffe.apk"
+    "version": "1.0.57",
+    "notes": "Order updates at every step, also with the app closed: while you have an open order, Tiffe shows a quiet Tracking your order notification and gets each status change live (order placed, accepted, preparing, packed, out for delivery, delivered, cancelled), so alerts arrive right away instead of every 15 minutes. It stops by itself when the order is finished. Tiffe asks once to run in the background, because many phones close background apps. The 15 minute check stays as a backup. Not phone-tested.",
+    "apk": "https://github.com/frances09f-lgtm/tiffe/releases/download/v57/Tiffe.apk"
   }
 }
