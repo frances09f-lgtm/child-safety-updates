@@ -10,9 +10,9 @@
     "apk": "https://github.com/frances09f-lgtm/child-safety-client/releases/download/v25/ChildSafety-1.0.25.apk"
   },
   "tiffe_staff": {
-    "version": "1.0.9",
-    "notes": "Live Kitchen: the summary now counts today's deliveries only and resets at midnight IST, while upcoming orders stay visible in the queue below. Owners get an Auto-confirm new orders switch in the summary. Ready for Pickup: a card with verified payment but no rider now offers Assign delivery partner right on the card, and Confirm Handover works there once a rider is assigned. Payment verification is still required first. Payment, login and role code are unchanged. Not tested on a phone.",
-    "apk": "https://github.com/frances09f-lgtm/tiffe/releases/download/staff-v9/Tiffe-Staff.apk"
+    "version": "1.0.10",
+    "notes": "Tiffe Staff 1.0.10: light mode, Updates button, clearer kitchen cards, accept step and Remove bhaji.\nLight mode: the sun/moon button in the hub header switches between light and dark, and the choice is remembered. Every screen repaints when you switch, including the kitchen totals, which were white-on-white in light mode before. Dark mode is still available.\nUpdates: a labelled Updates button sits next to Sync in the kitchen summary. It says Checking… while it looks, then shows either \"You have the latest version\" or the in-app update window (download inside the app, then the Android installer). Sync and Updates text is now bright in both themes.\nReady for Pickup: a disabled Confirm Handover button now has readable text. The hint under it no longer sends you to All Orders for rider assignment; it says to assign the delivery partner on the same card, and only points to All Orders when payment still needs verifying.\nNew orders: once the owner runs the one-time database update (tiffe-v56 SQL), new orders arrive as \"Order placed\" and the customer sees \"Confirmed\" only after you tap Accept Order. Then tap Start Preparing. Existing orders are unchanged and show Start Preparing straight away.\nMenu: each bhaji has a Remove button, separate from the availability switch, with a confirmation. A removed bhaji leaves every menu but stays in old orders' history. Needs the same database update.\nNot tested on a phone. Analyze, the full test suite and the signed build passed in CI before publishing.",
+    "apk": "https://github.com/frances09f-lgtm/tiffe/releases/download/staff-v10/Tiffe-Staff.apk"
   },
   "tiffe": {
     "version": "1.0.55",
