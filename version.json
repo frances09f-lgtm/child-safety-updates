@@ -1,13 +1,13 @@
 {
   "parent": {
-    "version": "1.4.17",
-    "notes": "Adds an SOS notification and Children tab ordering. The app reads the SOS alerts recorded on the server, so an SOS is not missed when a normal location report arrives right after it, and shows one urgent notification per SOS, also when the app is closed and background alerts are on. On the Children tab the child who pressed SOS last is shown first and the one before second. Includes the pre-filled server address from v1.4.16. Login, billing and all other features are unchanged. Signed ARM + ARM64 APK after successful static analysis and tests. No phone testing claimed.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.17/ChildSafetyParent.apk"
+    "version": "1.4.18",
+    "notes": "Groups nearby history entries into one row (approximate grouping). Adds a shared 4-digit parent PIN that unlocks the parent app instead of email sign-in, for testing; the owner still approves new child phones with the owner account. Version 1.4.18+23. Signed ARM + ARM64 APK after successful static analysis and tests. No phone testing claimed.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-parent/releases/download/v1.4.18/ChildSafetyParent.apk"
   },
   "client": {
-    "version": "1.0.25",
-    "notes": "Adds 32-bit ARM support. Previous APKs lacked the 32-bit Flutter engine and app library; this may explain launch failure on 32-bit Android. All features are unchanged from v24 (source diff: build and version files only). Retest pending on a 32-bit phone. Signed ARM + ARM64 + x86-64 APK after successful static analysis and tests. Not tested on a physical phone.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-client/releases/download/v25/ChildSafety-1.0.25.apk"
+    "version": "1.0.26",
+    "notes": "Login removed for testing: the child phone no longer asks for email or password. It waits for the parent to approve it, and tracking stays off until approval. Version 1.0.26+26. Signed ARM + ARM64 APK after successful static analysis and tests. Not tested on a physical phone.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-client/releases/download/v26/ChildSafety-1.0.26.apk"
   },
   "tiffe_staff": {
     "version": "1.0.11",
