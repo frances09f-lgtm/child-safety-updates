@@ -1,8 +1,8 @@
 {
   "parent": {
-    "version": "1.4.20",
-    "notes": "Loading indicator above the family search is now an animated bouncing-dots row instead of a bar. Version 1.4.20+2025. Signed universal APK (ARM + ARM64 + x86-64) after successful static analysis and the full test suite in CI. Not tested on a physical phone.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-updates/releases/download/parent-v1.4.20/ChildSafetyParent.apk"
+    "version": "1.4.21",
+    "Fixes PIN login: the app no longer signs you out when a network error interrupts a refresh; an expired PIN session now asks for the PIN again. Version 1.4.21+2026. Signed universal APK (ARM + ARM64 + x86-64) after successful static analysis and the full test suite in CI. Not tested on a physical phone.",
+    "apk": "https://github.com/frances09f-lgtm/child-safety-updates/releases/download/parent-v1.4.21/ChildSafetyParent.apk"
   },
   "client": {
     "version": "1.0.26",
@@ -30,3 +30,4 @@
     "size": 39775709
   }
 }
+
