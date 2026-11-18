@@ -7,7 +7,7 @@
   "client": {
     "version": "1.0.26",
     "notes": "Login removed for testing: the child phone no longer asks for email or password. It waits for the parent to approve it, and tracking stays off until approval. Version 1.0.26+26. Signed ARM + ARM64 APK after successful static analysis and tests. Not tested on a physical phone.",
-    "apk": "https://github.com/frances09f-lgtm/child-safety-client/releases/download/v26/ChildSafety-1.0.26.apk"
+    "apk": "https://github.com/frances09f-lgtm/child-safety-updates/releases/download/client-v1.0.26/ChildSafety-1.0.26.apk"
   },
   "tiffe_staff": {
     "version": "1.0.11",
